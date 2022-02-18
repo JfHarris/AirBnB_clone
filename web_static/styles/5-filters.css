@@ -23,3 +23,10 @@ button:hover {
     opacity: 0.9;
 }
 /* add locations abnd amenities */
+.locations {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    margin-left: 20px;
+    display: inline-block;
+}
