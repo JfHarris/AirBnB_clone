@@ -8,7 +8,7 @@ body {
 
 div.container {
     max-width: 1000px;
-    min-height: 1000px;
+    margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
 }
