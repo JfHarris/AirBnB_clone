@@ -1,7 +1,10 @@
-.places {
+.places h1 {
     font-size: 30px;
     text-align: left;
     vertical-align: top;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .article {
@@ -10,9 +13,17 @@
     margin: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
+    box-sizing: content-box;
 }
 
 .article h2 {
     font-size: 30px;
     text-align: center;
+}
+
+.types {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
