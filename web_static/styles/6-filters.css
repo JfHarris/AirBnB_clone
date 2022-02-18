@@ -29,6 +29,7 @@ button:hover {
     border-right: 1px solid #DDDDDD;
     margin-left: 20px;
     display: inline-block;
+    position: relative;
 }
 
 .amenities {
@@ -36,6 +37,11 @@ button:hover {
     width: 25%;
     display: inline-block;
     margin-left: 45px;
+    position: relative;
+}
+
+h2 {
+    font-size: 16px;
 }
 
 h3 {
@@ -48,4 +54,24 @@ h4 {
     margin-top: 10px;
     font-weight: 400;
     font-size: 14px;
+}
+
+.popover {
+    position: absolute;
+    display: none;
+    background-color: #FAFAFA;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+
+.amenities:hover .popover {display: block;}
+
+.locations:hover .popover {display: block;}
+
+ul {
+    list-style-type: none;
+    line-height: 10px;
 }
