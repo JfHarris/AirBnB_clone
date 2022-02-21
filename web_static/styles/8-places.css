@@ -3,8 +3,8 @@
     text-align: left;
     vertical-align: top;
     padding: 0;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 45px;
+    margin-left: 15px;
 }
 
 .article {
@@ -20,7 +20,7 @@
 .description {
     margin: 0;
     padding: 0;
-    margin-top: 5px;
+    margin-top: -5px;
 }
 
 .types {
@@ -31,9 +31,9 @@
 }
 
 .price_by_night {
-    min-width: 60px;
-    width: 60px;
-    min-height: 60px;
+    width: 80px;
+    min-width : 60px;
+    min-height: 80px;
     height: 60px;
     color: #FF5A5F;
     border: 4px solid #FF5A5F;
@@ -46,7 +46,8 @@
 }
 
 .price_by_night p {
-    text-align: right;
+    text-align: center;
+    font-size: 25px;
     font-size: 30px;
 }
 
@@ -69,6 +70,8 @@
     justify-items: center;
     background-repeat: no-repeat;
     flex-direction: column;
+    display: flex;
+    height: 200px;
 }
 
 .number_rooms {
@@ -77,6 +80,8 @@
     justify-items: center;
     background-repeat: no-repeat;
     flex-direction: column;
+    display: flex;
+    height: 200px;
 }
 
 .number_bathrooms {
@@ -85,6 +90,8 @@
     justify-items: center;
     background-repeat: no-repeat;
     flex-direction: column;
+    display: flex;
+    height: 200px;
 }
 
 .icon-info {
@@ -93,15 +100,19 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
 .icon-info p {
-    margin-top: 25px;
+    margin-top: 50px;
     text-align: center;
-    margin-left: 25px;
+    margin-left: -50px;
 }
 
 .new_places h2 {
     font-size: 30px;
     text-align: center;
+    margin-top: 15px;
+    margin-left: 110px;
 }
